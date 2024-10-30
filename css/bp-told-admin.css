@@ -1,0 +1,125 @@
+/*
+* @package bp-template-overloader
+*/
+.bp-status {
+	float: right;
+	margin-right: 15px;
+	position: relative;
+	top: -28px;
+}
+.told-title {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 1em;
+}
+.nav-tabs {
+	float: left;
+	width: 99%;
+	margin: 0;
+	list-style-type: none;
+	border-bottom: 1px solid #ddd;
+	position: relative;
+	top: -15px;
+}
+.nav-tabs > li {
+	float: left;
+	border-bottom: -1px;
+}
+.nav-tabs > li > a {
+	margin-right: 2px;
+	line-height: 1.5;
+	padding: 10px;
+	border: 1px solid transparent;
+	border-radius: 4px 4px 0 0;
+	float: left;
+	text-decoration: none;
+}
+.nav-tabs > li > a:hover {
+	border-color: #eee #eee #ddd;
+	background-color: #f5f5f5;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+	color: #555;
+	cursor: default;
+	background-color: #fff;
+	border-color: #ddd;
+	border-bottom-color: transparent;
+}
+
+div.bp-told-admin.tab-content > .tab-pane {
+	float: left;
+	width: 98%;
+	display: none;
+	position: relative;
+	top: -10px;
+}
+div.tab-2-left {
+	width: 75%;
+	border: 1px solid;
+	display: inline-block;
+}
+div.tab-2l-interior {
+	margin-left: 5px;
+	margin-right: 10px;
+}
+div.tab-2-right {
+	width: 24%;
+	float: right;
+	border: 1px solid;
+}
+div.tab-2r-interior {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+h3.hndle {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+div.bp-told-admin.tab-content > .tab-pane.active {
+	display: block;
+	padding: 10px;
+	background-color: #fff;
+	box-shadow: 0 1px 4px -2px rgba(0,0,0,0.15);
+}
+
+#tab-1 table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size:12px;
+	line-height: 15px;
+}
+#tab-1 tr:nth-child(odd) {
+	background: #fcfcfc;
+}
+#tab-1 img {
+	height: 26px;
+	padding: 1px;
+}
+#tab-1 img:hover {
+	height: 22px;
+	padding: 3px;
+}
+img.bpu-logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+.diff td{
+	vertical-align : top;
+	white-space    : pre;
+	white-space    : pre-wrap;
+	font-family    : monospace;
+	width			 : 4%;
+}
+.diffInserted {
+	background-color: #F8E4B1;
+}
+.diffDeleted {
+	background-color: #C9EDED;
+}
